@@ -98,7 +98,7 @@ pip install opencv-python numpy scikit-image scipy matplotlib
 ご質問や問題がある場合は、お気軽にIssueを開いてください。
 
 ---
-# 類似度の計算方法
+## 類似度の計算方法
 
 このスクリプトでは、2つの主要な指標を使用して画像の類似度を計算しています：
 
