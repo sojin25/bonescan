@@ -62,21 +62,17 @@ Here's an example of how the script works with actual images:
 
 Image 1 (Origin):
 
-![Origin Image](path_to_image1.png)
+![Origin Image](origin.png)
 
 Image 2 (Filter):
 
-![Filter Image](path_to_image2.png)
+![Filter Image](./filter.png)
 
 ### Result Images
 
-Comparison of Blue Regions:
-
-![Blue Regions Comparison](path_to_image3.png)
-
 Comparison of Red Regions:
 
-![Red Regions Comparison](path_to_image4.png)
+![Red Regions Comparison](./comparison.png)
 
 In the result images:
 - Green areas indicate matching regions between the two input images.
