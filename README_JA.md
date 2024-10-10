@@ -38,8 +38,8 @@ pip install opencv-python numpy scikit-image scipy matplotlib
 
 2. 比較したい2つの画像ファイルを用意し、スクリプトと同じディレクトリに配置します。
    - デフォルトのファイル名:
-     - `0130000001-1_origin_output.png`
-     - `0130000001-1_filter_output.png`
+     - `origin.png`
+     - `filter.png`
    - 別の画像を使用する場合は、スクリプト内の`img1_path`と`img2_path`変数を適宜変更してください。
 
 3. Jupyter Notebookを起動します：
@@ -60,11 +60,11 @@ pip install opencv-python numpy scikit-image scipy matplotlib
 
 ### 入力画像
 
-画像1（元画像）:
+画像1（元画像：origin.png）:
 
 ![元画像](./origin.png)
 
-画像2（フィルター適用後）:
+画像2（フィルター適用後：filter.png）:
 
 ![フィルター適用後画像](./filter.png)
 
