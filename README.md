@@ -1,6 +1,6 @@
 # Image Analysis Script
 
-[English](./README.md) | [日本語](./README.ja.md)
+[English](./README.md) | [日本語](./README_JA.md)
 
 This project contains a Python script for comparing two images and analyzing the similarity of specific color regions (red and blue). It is designed to run in a Jupyter Notebook environment.
 
