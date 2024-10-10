@@ -96,3 +96,38 @@ The script calculates Dice coefficients and Hausdorff distances for both red and
 - If you experience image loading errors, check that the file paths are correct and the image files exist.
 
 If you have any questions or issues, please feel free to open an Issue.
+
+---
+## Similarity Calculation Methods
+
+This script uses two main metrics to calculate the similarity between images:
+
+### Dice Coefficient
+
+The Dice coefficient is a statistical metric used to measure the degree of overlap between two sample sets. In the context of image analysis, it is used to measure the similarity between two regions (segments).
+
+- Formula: Dice = (2 * |X ∩ Y|) / (|X| + |Y|)
+  - X and Y are the two sets being compared (in this case, specific color regions of the images)
+  - |X ∩ Y| is the number of elements common to both sets
+  - |X| and |Y| are the number of elements in each set
+
+- Value range: 0 to 1
+  - Values closer to 1 indicate that the two regions are very similar
+  - Values closer to 0 indicate that the two regions are completely different
+
+### Hausdorff Distance
+
+The Hausdorff distance is a metric used to measure the similarity between two point sets. In image analysis, it is used to quantify differences between two shapes or contours.
+
+- Calculation method:
+  1. Calculate the distance from each point in set A to the nearest point in set B
+  2. Calculate the distance from each point in set B to the nearest point in set A
+  3. The Hausdorff distance is the maximum of all these distances
+
+- Characteristics:
+  - Represents the overall similarity of two shapes with a single value
+  - Smaller values indicate that the two shapes are more similar
+  - Sensitive to outliers
+
+By combining these metrics, we can comprehensively evaluate the similarity of images from both the perspective of color region overlap (Dice coefficient) and shape similarity (Hausdorff distance).
+
