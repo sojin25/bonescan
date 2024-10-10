@@ -70,14 +70,13 @@ Image 2 (Filter):
 
 ### Result Images
 
-Comparison of Red Regions:
+Image 3 (Comparison of Red Regions):
 
 ![Red Regions Comparison](./comparison.png)
 
 In the result images:
 - Green areas indicate matching regions between the two input images.
-- Red areas in Image 3 show blue regions that don't match between the inputs.
-- Red areas in Image 4 show red regions that don't match between the inputs.
+- Red areas in Image 3 show red regions that don't match between the inputs.
 
 The script calculates Dice coefficients and Hausdorff distances for both red and blue regions, providing a quantitative measure of similarity between the two input images.
 
