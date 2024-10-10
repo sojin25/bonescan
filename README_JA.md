@@ -97,6 +97,8 @@ pip install opencv-python numpy scikit-image scipy matplotlib
 
 ご質問や問題がある場合は、お気軽にIssueを開いてください。
 
+
+
 ---
 ## 類似度の計算方法
 
