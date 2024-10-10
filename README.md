@@ -60,11 +60,11 @@ Here's an example of how the script works with actual images:
 
 ### Input Images
 
-Image 1 (Origin):
+Image 1 (Origin: origin.png):
 
 ![Origin Image](origin.png)
 
-Image 2 (Filter):
+Image 2 (Filter: filter.png):
 
 ![Filter Image](./filter.png)
 
