@@ -38,8 +38,8 @@ pip install opencv-python numpy scikit-image scipy matplotlib
 
 2. Prepare two image files you want to compare and place them in the same directory as the script.
    - Default file names:
-     - `0130000001-1_origin_output.png`
-     - `0130000001-1_filter_output.png`
+     - `origin.png`
+     - `filter.png`
    - If you use different images, modify the `img1_path` and `img2_path` variables in the script accordingly.
 
 3. Launch Jupyter Notebook:
