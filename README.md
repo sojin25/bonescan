@@ -54,6 +54,37 @@ pip install opencv-python numpy scikit-image scipy matplotlib
    - Hausdorff distances for red and blue regions
    - Overlay images showing matching and non-matching areas
 
+## Example
+
+Here's an example of how the script works with actual images:
+
+### Input Images
+
+Image 1 (Origin):
+
+![Origin Image](path_to_image1.png)
+
+Image 2 (Filter):
+
+![Filter Image](path_to_image2.png)
+
+### Result Images
+
+Comparison of Blue Regions:
+
+![Blue Regions Comparison](path_to_image3.png)
+
+Comparison of Red Regions:
+
+![Red Regions Comparison](path_to_image4.png)
+
+In the result images:
+- Green areas indicate matching regions between the two input images.
+- Red areas in Image 3 show blue regions that don't match between the inputs.
+- Red areas in Image 4 show red regions that don't match between the inputs.
+
+The script calculates Dice coefficients and Hausdorff distances for both red and blue regions, providing a quantitative measure of similarity between the two input images.
+
 ## Customization
 
 - Adjusting color ranges: Modify the `lower_red1`, `upper_red1`, `lower_red2`, `upper_red2`, `lower_blue`, and `upper_blue` variables to change the color detection ranges.
