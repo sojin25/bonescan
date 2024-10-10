@@ -1,22 +1,24 @@
-# 画像分析スクリプト
+# Image Analysis Script
 
-このプロジェクトは、2つの画像を比較し、特定の色領域（赤と青）の一致度を分析するPythonスクリプトです。Jupyter Notebook環境で実行できるように設計されています。
+[English](./README.md) | [日本語](./README.ja.md)
 
-## 機能
+This project contains a Python script for comparing two images and analyzing the similarity of specific color regions (red and blue). It is designed to run in a Jupyter Notebook environment.
 
-- 2つの画像を輪郭に基づいてアライメント
-- 赤と青の色領域のセグメンテーション
-- Dice係数とHausdorff距離による類似度の計算
-- 一致・不一致領域を視覚化したオーバーレイ画像の生成
+## Features
 
-## 必要条件
+- Image alignment based on contours
+- Segmentation of red and blue color regions
+- Similarity calculation using Dice coefficient and Hausdorff distance
+- Generation of overlay images visualizing matching and non-matching regions
 
-- Python 3.6以上
+## Requirements
+
+- Python 3.6 or higher
 - Jupyter Notebook
 
-## 必要なPythonモジュール
+## Required Python Modules
 
-以下のPythonモジュールが必要です：
+The following Python modules are required:
 
 - opencv-python (cv2)
 - numpy
@@ -24,47 +26,47 @@
 - scipy
 - matplotlib
 
-これらのモジュールは以下のコマンドでインストールできます：
+You can install these modules using the following command:
 
 ```
 pip install opencv-python numpy scikit-image scipy matplotlib
 ```
 
-## 使用方法
+## Usage
 
-1. このリポジトリをクローンまたはダウンロードします。
+1. Clone or download this repository.
 
-2. 2つの比較したい画像ファイルを用意し、スクリプトと同じディレクトリに配置します。
-   - デフォルトのファイル名:
+2. Prepare two image files you want to compare and place them in the same directory as the script.
+   - Default file names:
      - `0130000001-1_origin_output.png`
      - `0130000001-1_filter_output.png`
-   - 別の画像を使用する場合は、スクリプト内の`img1_path`と`img2_path`変数を適宜変更してください。
+   - If you use different images, modify the `img1_path` and `img2_path` variables in the script accordingly.
 
-3. Jupyter Notebookを起動します：
+3. Launch Jupyter Notebook:
    ```
    jupyter notebook
    ```
 
-4. 新しいノートブックを作成し、提供されたスクリプトの内容をセルにコピー＆ペーストします。
+4. Create a new notebook and copy & paste the provided script content into a cell.
 
-5. セルを実行します。結果として、以下が表示されます：
-   - 赤と青の領域それぞれのDice係数
-   - 赤と青の領域それぞれのHausdorff距離
-   - 一致・不一致を示すオーバーレイ画像
+5. Run the cell. The results will display:
+   - Dice coefficients for red and blue regions
+   - Hausdorff distances for red and blue regions
+   - Overlay images showing matching and non-matching areas
 
-## カスタマイズ
+## Customization
 
-- 色範囲の調整: `lower_red1`, `upper_red1`, `lower_red2`, `upper_red2`, `lower_blue`, `upper_blue`変数を調整することで、検出する色範囲を変更できます。
-- オーバーレイの透明度: `create_overlay_image_with_white_background`関数の`alpha`パラメータを変更することで、オーバーレイ画像の透明度を調整できます。
+- Adjusting color ranges: Modify the `lower_red1`, `upper_red1`, `lower_red2`, `upper_red2`, `lower_blue`, and `upper_blue` variables to change the color detection ranges.
+- Overlay transparency: Change the `alpha` parameter in the `create_overlay_image_with_white_background` function to adjust the transparency of the overlay images.
 
-## 注意事項
+## Notes
 
-- 画像のサイズや形式によっては、アライメントやセグメンテーションの結果が異なる場合があります。
-- 大きなサイズの画像を処理する場合、実行に時間がかかる可能性があります。
+- Alignment and segmentation results may vary depending on the size and format of the images.
+- Processing large images may take longer to execute.
 
-## トラブルシューティング
+## Troubleshooting
 
-- モジュールのインポートエラーが発生した場合は、必要なモジュールが正しくインストールされているか確認してください。
-- 画像の読み込みエラーが発生した場合は、ファイルパスが正しいか、また画像ファイルが存在するか確認してください。
+- If you encounter module import errors, ensure that the required modules are correctly installed.
+- If you experience image loading errors, check that the file paths are correct and the image files exist.
 
-ご質問や問題がある場合は、お気軽にIssueを開いてください。
+If you have any questions or issues, please feel free to open an Issue.
