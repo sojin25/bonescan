@@ -16,6 +16,27 @@
 - Python 3.6以上
 - Jupyter Notebook
 
+## クイックインストール（簡単に始めたい方に）
+
+1. レポジトリを取得
+```  
+git clone https://github.com/sojin25/bonescan.git
+cd bonescan
+```
+2. 依存ライブラリをインストール
+```
+pip install -r requirements.txt          # via pip
+```
+ or
+```
+conda env create -f environment.yml      # via conda
+conda activate bonescan
+```
+3. 依存ライブラリをインストール
+```
+jupyter notebook notebooks/demo.ipynb
+```
+
 ## 必要なPythonモジュール
 
 以下のPythonモジュールが必要です：
