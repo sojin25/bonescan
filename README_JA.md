@@ -37,6 +37,9 @@ conda activate bonescan
 jupyter notebook notebooks/demo.ipynb
 ```
 
+> **ヒント:** ブラウザだけで試したい場合は **Google Colab バッジ** をクリックしてください。  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sojin25/bonescan/blob/main/notebooks/demo.ipynb)
+
 ## 必要なPythonモジュール
 
 以下のPythonモジュールが必要です：
