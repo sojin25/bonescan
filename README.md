@@ -16,6 +16,27 @@ This project contains a Python script for comparing two images and analyzing the
 - Python 3.6 or higher
 - Jupyter Notebook
 
+## Quick Install
+
+1. Clone the repository
+```  
+git clone https://github.com/sojin25/bonescan.git
+cd bonescan
+```
+2. Install dependencies
+```
+pip install -r requirements.txt          # via pip
+```
+ or
+```
+conda env create -f environment.yml      # via conda
+conda activate bonescan
+```
+3. Launch the demo notebook
+```
+jupyter notebook notebooks/demo.ipynb
+```
+
 ## Required Python Modules
 
 The following Python modules are required:
