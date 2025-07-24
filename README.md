@@ -37,6 +37,9 @@ conda activate bonescan
 jupyter notebook notebooks/demo.ipynb
 ```
 
+> **Tip:** You can try it instantly in your browser via **Google Colab**.  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sojin25/bonescan/blob/main/notebooks/demo.ipynb)
+
 ## Required Python Modules
 
 The following Python modules are required:
