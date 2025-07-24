@@ -32,13 +32,13 @@ pip install -r requirements.txt          # via pip
 conda env create -f environment.yml      # via conda
 conda activate bonescan
 ```
-3. 依存ライブラリをインストール
+3. ノートブックを起動
 ```
-jupyter notebook notebooks/demo.ipynb
+jupyter notebook pair_comp.ipynb
 ```
 
 > **ヒント:** ブラウザだけで試したい場合は **Google Colab バッジ** をクリックしてください。  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sojin25/bonescan/blob/main/notebooks/demo.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sojin25/bonescan/blob/main/pair_comp.ipynb)
 
 ## 必要なPythonモジュール
 

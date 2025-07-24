@@ -32,13 +32,13 @@ pip install -r requirements.txt          # via pip
 conda env create -f environment.yml      # via conda
 conda activate bonescan
 ```
-3. Launch the demo notebook
+3. Launch the notebook
 ```
-jupyter notebook notebooks/demo.ipynb
+jupyter notebook pair_comp.ipynb
 ```
 
 > **Tip:** You can try it instantly in your browser via **Google Colab**.  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sojin25/bonescan/blob/main/notebooks/demo.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sojin25/bonescan/blob/main/pair_comp.ipynb)
 
 ## Required Python Modules
 
