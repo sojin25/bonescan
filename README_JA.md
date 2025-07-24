@@ -11,6 +11,10 @@
 - Dice係数とHausdorff距離による類似度の計算
 - 一致・不一致領域を視覚化したオーバーレイ画像の生成
 
+> **ヒント:** ブラウザだけで試したい場合は **Google Colab バッジ** をクリックしてください。  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sojin25/bonescan/blob/main/pair_comp.ipynb)
+
+
 ## 必要条件
 
 - Python 3.6以上
@@ -36,9 +40,6 @@ conda activate bonescan
 ```
 jupyter notebook pair_comp.ipynb
 ```
-
-> **ヒント:** ブラウザだけで試したい場合は **Google Colab バッジ** をクリックしてください。  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sojin25/bonescan/blob/main/pair_comp.ipynb)
 
 ## 必要なPythonモジュール
 
