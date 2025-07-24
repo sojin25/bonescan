@@ -1,0 +1,15 @@
+name: bonescan
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy>=1.24,<2.0
+  - scipy>=1.11,<1.13
+  - scikit-image=0.23.2
+  - opencv-python-headless=4.10.0          # GUI 依存を排除
+  - matplotlib>=3.7,<4.0
+  # 追加で CLI を使う場合
+  - click>=8.0
+  # Jupyter 実行を想定するなら
+  - notebook
+  - ipykernel
