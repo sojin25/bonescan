@@ -39,7 +39,6 @@ jupyter notebook pair_comp.ipynb
 
 > **Tip:** You can try it instantly in your browser via **Google Colab**.  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sojin25/bonescan/blob/main/demo_en.ipynb)
-
 ## Required Python Modules
 
 The following Python modules are required:
