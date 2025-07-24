@@ -11,6 +11,10 @@ This project contains a Python script for comparing two images and analyzing the
 - Similarity calculation using Dice coefficient and Hausdorff distance
 - Generation of overlay images visualizing matching and non-matching regions
 
+> **Tip:** You can try it instantly in your browser via **Google Colab**.  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sojin25/bonescan/blob/main/pair_comp.ipynb)
+
+
 ## Requirements
 
 - Python 3.6 or higher
@@ -36,9 +40,6 @@ conda activate bonescan
 ```
 jupyter notebook pair_comp.ipynb
 ```
-
-> **Tip:** You can try it instantly in your browser via **Google Colab**.  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sojin25/bonescan/blob/main/pair_comp.ipynb)
 
 ## Required Python Modules
 
